@@ -1,0 +1,303 @@
+{
+  "@@locale": "ar",
+  "appName": "حصن المسلم",
+  "appTagline": "حصّن يومك بذكر الله",
+
+  "navHome": "الرئيسية",
+  "navLibrary": "الأذكار",
+  "navTasbeeh": "المسبحة",
+  "navFavorites": "المفضلة",
+  "navSettings": "الإعدادات",
+
+  "actionNext": "التالي",
+  "actionPrevious": "السابق",
+  "actionSkip": "تخطٍّ",
+  "actionStart": "ابدأ",
+  "actionCancel": "إلغاء",
+  "actionSave": "حفظ",
+  "actionDelete": "حذف",
+  "actionDone": "تم",
+  "actionRetry": "إعادة المحاولة",
+  "actionUndo": "تراجع",
+  "actionClose": "إغلاق",
+  "actionSeeAll": "عرض الكل",
+  "actionConfirm": "تأكيد",
+  "actionReset": "تصفير",
+  "actionCopy": "نسخ",
+  "actionShare": "مشاركة",
+  "actionSearch": "بحث",
+  "actionBack": "رجوع",
+  "copied": "تم نسخ النص",
+  "addedToFavorites": "أُضيف إلى المفضلة",
+  "removedFromFavorites": "أُزيل من المفضلة",
+  "addToFavorites": "إضافة إلى المفضلة",
+  "removeFromFavorites": "إزالة من المفضلة",
+
+  "greetingMorning": "صباحٌ مبارك",
+  "greetingDay": "يومٌ طيّب",
+  "greetingEvening": "مساءٌ مبارك",
+  "greetingNight": "ليلةٌ هانئة",
+
+  "homeTodayWird": "وِرد اليوم",
+  "homeWirdProgress": "{done} من {total}",
+  "@homeWirdProgress": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "homeStreak": "{count, plural, =0{ابدأ سلسلتك اليوم} =1{يوم واحد متتالٍ} =2{يومان متتاليان} few{{count} أيام متتالية} many{{count} يومًا متتاليًا} other{{count} يوم متتالٍ}}",
+  "@homeStreak": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "homeSuggested": "مقترح الآن",
+  "homeDailyDhikr": "ذكر اليوم",
+  "homeQuickAccess": "وصول سريع",
+  "homeAllCategories": "جميع الأقسام",
+  "homeCompletedToday": "أتممته اليوم",
+  "searchHint": "ابحث في الأذكار والأدعية",
+
+  "libraryTitle": "مكتبة الأذكار",
+  "libraryItemsCount": "{count, plural, =0{لا أذكار} =1{ذكر واحد} =2{ذكران} few{{count} أذكار} many{{count} ذكرًا} other{{count} ذكر}}",
+  "@libraryItemsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "categoryStart": "ابدأ القراءة",
+  "categoryContinue": "تابع القراءة",
+  "categoryReadAgain": "اقرأ مجددًا",
+  "categoryDoneToday": "أتممت هذا القسم اليوم",
+  "repeatCount": "{count, plural, =1{مرة واحدة} =2{مرتان} few{{count} مرات} many{{count} مرة} other{{count} مرة}}",
+  "@repeatCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "readerOf": "{current} من {total}",
+  "@readerOf": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "readerTapToCount": "اضغط للعدّ",
+  "readerDone": "اكتمل",
+  "readerRemainingLabel": "المتبقي",
+  "readerQuran": "قرآن كريم",
+  "readerSunnah": "من السنة",
+  "readerReference": "المصدر والتخريج",
+  "readerReferenceMissing": "لم يُرفق تخريج هذا الذكر في هذه النسخة بعد.",
+  "readerBookNote": "ملاحظة من الكتاب",
+  "readerFootnoteTitle": "حاشية الكتاب",
+  "readerSourceLabel": "المصدر",
+  "readerTranslation": "الترجمة",
+  "readerTransliteration": "النطق",
+  "readerTranslationBy": "ترجمة: {source}",
+  "@readerTranslationBy": {
+    "placeholders": {
+      "source": {"type": "String"}
+    }
+  },
+  "readerFontSize": "حجم الخط",
+  "readerShowTranslation": "إظهار الترجمة الإنجليزية",
+  "readerAutoAdvance": "الانتقال تلقائيًا بعد الإكمال",
+  "readerTapText": "العدّ بالضغط على النص",
+  "readerResetCount": "إعادة العدّ",
+  "readerMarkDone": "تحديد كمكتمل",
+  "readerCompleteTitle": "أتممت {category}",
+  "@readerCompleteTitle": {
+    "placeholders": {
+      "category": {"type": "String"}
+    }
+  },
+  "readerCompleteBody": "تقبّل الله منا ومنكم صالح الأعمال.",
+  "readerBackToList": "العودة إلى القائمة",
+  "readerStay": "البقاء هنا",
+  "readerEmpty": "لا توجد أذكار هنا.",
+  "readerDisplayOptions": "خيارات العرض",
+  "shareFooter": "— من تطبيق حصن المسلم",
+
+  "favoritesTitle": "المفضلة",
+  "favoritesEmptyTitle": "لا توجد أذكار مفضلة بعد",
+  "favoritesEmptyBody": "اضغط على أيقونة القلب في أي ذكر ليُحفظ هنا ويكون في متناولك دائمًا.",
+  "favoritesSearchHint": "ابحث في المفضلة",
+  "favoritesReadAll": "قراءة الكل",
+  "favoritesNoMatch": "لا نتائج مطابقة في المفضلة",
+
+  "searchTitle": "البحث",
+  "searchIntro": "ابحث بكلمة من نص الذكر أو باسم المناسبة، ولا حاجة لكتابة التشكيل.",
+  "searchSuggestions": "اقتراحات",
+  "searchNoResults": "لا نتائج لـ «{query}»",
+  "@searchNoResults": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+  "searchNoResultsHint": "جرّب كلمة أخرى أو جزءًا من الكلمة.",
+  "searchResultsCount": "{count, plural, =0{لا نتائج} =1{نتيجة واحدة} =2{نتيجتان} few{{count} نتائج} many{{count} نتيجة} other{{count} نتيجة}}",
+  "@searchResultsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "searchClear": "مسح",
+
+  "tasbeehTitle": "المسبحة",
+  "tasbeehTapHint": "اضغط على الدائرة للتسبيح",
+  "tasbeehTarget": "الهدف",
+  "tasbeehUnlimited": "بلا حد",
+  "tasbeehRounds": "الدورات",
+  "tasbeehToday": "اليوم",
+  "tasbeehTotal": "الإجمالي",
+  "tasbeehChoose": "اختر الذكر",
+  "tasbeehAddCustom": "إضافة ذكر خاص",
+  "tasbeehCustomHint": "اكتب الذكر",
+  "tasbeehCustomTarget": "عدد التكرار",
+  "tasbeehResetTitle": "تصفير العداد؟",
+  "tasbeehResetBody": "سيعود العدّ الحالي والدورات إلى الصفر، وتبقى الإحصائيات محفوظة.",
+  "tasbeehRoundDone": "اكتملت الدورة",
+  "tasbeehSound": "الصوت",
+  "tasbeehHaptics": "الاهتزاز",
+  "tasbeehDeleteCustom": "حذف هذا الذكر",
+  "tasbeehCountSemantics": "العدد {count}",
+  "@tasbeehCountSemantics": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "tasbeehStatsFor": "إحصائيات هذا الذكر: {count}",
+  "@tasbeehStatsFor": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "remindersTitle": "التذكيرات",
+  "remindersIntro": "تذكيرات يومية اختيارية تصلك في الوقت الذي تختاره.",
+  "reminderMorning": "أذكار الصباح",
+  "reminderEvening": "أذكار المساء",
+  "reminderSleep": "أذكار النوم",
+  "reminderCustomSection": "تذكيرات خاصة",
+  "reminderAdd": "إضافة تذكير",
+  "reminderTitleHint": "عنوان التذكير (مثال: ورد القرآن)",
+  "reminderTime": "الوقت",
+  "reminderMorningBody": "حان وقت أذكار الصباح، حصّن يومك بذكر الله.",
+  "reminderEveningBody": "حان وقت أذكار المساء.",
+  "reminderSleepBody": "لا تنسَ أذكار النوم قبل أن تنام.",
+  "reminderCustomBody": "تذكير من حصن المسلم",
+  "reminderChannelName": "تذكيرات الأذكار",
+  "reminderChannelDescription": "تذكيرات يومية يختارها المستخدم لقراءة الأذكار",
+  "reminderPermissionTitle": "السماح بالإشعارات",
+  "reminderPermissionBody": "نستخدم الإشعارات فقط لتذكيرك بالأذكار في الأوقات التي تحددها أنت. لا إعلانات ولا رسائل أخرى، ويمكنك إيقافها متى شئت.",
+  "reminderPermissionDenied": "الإشعارات غير مفعّلة لهذا التطبيق. فعّلها من إعدادات الجهاز لتصلك التذكيرات.",
+  "reminderNotNow": "ليس الآن",
+  "reminderDelete": "حذف التذكير",
+  "reminderInexactNote": "قد يتأخر التذكير دقائق قليلة حفاظًا على البطارية.",
+  "reminderExactTitle": "توقيت دقيق للتذكيرات",
+  "reminderExactBody": "قد يؤخّر النظام التذكيرات لتوفير البطارية. اسمح بـ«المنبّهات والتذكيرات» ليصلك التذكير في وقته.",
+  "reminderExactAction": "السماح",
+  "reminderLimitReached": "وصلت إلى الحد الأقصى للتذكيرات الخاصة.",
+
+  "settingsTitle": "الإعدادات",
+  "settingsAppearance": "المظهر",
+  "settingsTheme": "السمة",
+  "themeSystem": "تلقائي",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "settingsLanguage": "اللغة",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "settingsReading": "القراءة",
+  "settingsFontSize": "حجم خط الأذكار",
+  "settingsFeedback": "التفاعل",
+  "settingsHaptics": "الاهتزاز عند العدّ",
+  "settingsSound": "صوت النقر",
+  "settingsSoundHint": "يتبع إعداد أصوات اللمس في جهازك",
+  "settingsReminders": "التذكيرات",
+  "settingsRemindersSubtitle": "تذكيرات الصباح والمساء والنوم",
+  "settingsData": "البيانات",
+  "settingsResetProgress": "إعادة ضبط تقدّم القراءة",
+  "settingsResetProgressBody": "سيُمسح عدّاد اليوم وسجل الإنجاز. لا يمكن التراجع عن ذلك.",
+  "settingsProgressReset": "تمت إعادة ضبط التقدّم",
+  "settingsClearData": "مسح جميع بيانات التطبيق",
+  "settingsClearDataBody": "ستُحذف المفضلة والتقدّم وإحصائيات المسبحة والتذكيرات والإعدادات من هذا الجهاز.",
+  "settingsAbout": "عن التطبيق",
+  "settingsSources": "مصادر المحتوى",
+  "settingsPrivacy": "سياسة الخصوصية",
+  "settingsShareApp": "مشاركة التطبيق",
+  "settingsShareMessage": "حصن المسلم — أذكار وأدعية من الكتاب والسنة، تعمل دون إنترنت:\n{url}",
+  "@settingsShareMessage": {
+    "placeholders": {
+      "url": {"type": "String"}
+    }
+  },
+  "settingsVersion": "الإصدار {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+  "settingsLicenses": "تراخيص البرمجيات والخطوط",
+  "settingsContact": "تواصل معنا",
+
+  "aboutBody": "يجمع «حصن المسلم» أذكار اليوم والليلة والأدعية من كتاب «حصن المسلم من أذكار الكتاب والسنة» للشيخ سعيد بن علي بن وهف القحطاني، مع أدعية من القرآن الكريم، في تجربة هادئة تعمل بالكامل دون إنترنت.",
+  "aboutPrinciples": "مبادئنا",
+  "aboutPrincipleOffline": "يعمل دون إنترنت",
+  "aboutPrincipleNoAds": "بلا إعلانات ولا تتبّع",
+  "aboutPrincipleNoAccount": "بلا حساب أو تسجيل",
+  "aboutContentNoticeTitle": "عن دقة المحتوى",
+  "aboutContentNotice": "نُقلت النصوص حرفيًا من المصادر المذكورة وطوبقت آليًا مع حواشي الكتاب، ولم تُراجَع بعدُ من قِبل مختص شرعي. إن لاحظت خطأً فنرجو إبلاغنا.",
+
+  "sourcesTitle": "مصادر المحتوى",
+  "sourcesHisnTitle": "كتاب حصن المسلم",
+  "sourcesHisnBody": "نص الأذكار وعدد التكرار والترجمة الإنجليزية من الموقع الرسمي للكتاب hisnmuslim.com.",
+  "sourcesFootnotesTitle": "حواشي الكتاب",
+  "sourcesFootnotesBody": "التخريج والفضل من نسخة نصية لحواشي الكتاب، وتُرفق بالذكر فقط عند تطابقها بوضوح.",
+  "sourcesEveningTitle": "صيغ المساء",
+  "sourcesEveningBody": "يكتفي الكتاب بالتنبيه على صيغة المساء؛ وتُعرض الصيغة الكاملة فقط إذا طابقت تنبيه الكتاب.",
+  "sourcesQuranTitle": "الآيات القرآنية",
+  "sourcesQuranBody": "نص الآيات من مصحف تنزيل (tanzil.net) بالرسم الإملائي، والترجمة الإنجليزية: Saheeh International.",
+  "sourcesVersion": "نسخة المحتوى {version} · {count} ذكرًا",
+  "@sourcesVersion": {
+    "placeholders": {
+      "version": {"type": "int"},
+      "count": {"type": "int"}
+    }
+  },
+
+  "privacyTitle": "سياسة الخصوصية",
+  "privacyIntro": "لا يجمع «حصن المسلم» أي بيانات شخصية، ولا يرسل أي بيانات إلى أي جهة.",
+  "privacyPointAccount": "لا يتطلب حسابًا أو تسجيل دخول.",
+  "privacyPointAds": "لا يحتوي على إعلانات أو أدوات تحليل أو تتبّع.",
+  "privacyPointInternet": "لا يستخدم الإنترنت ولا يطلب إذن الوصول إليه.",
+  "privacyPointLocal": "تُحفظ المفضلة والتقدّم والإعدادات والتذكيرات على جهازك فقط، ويمكنك حذفها من الإعدادات.",
+  "privacyPointNotifications": "إذن الإشعارات اختياري ويُستخدم فقط للتذكيرات التي تفعّلها بنفسك.",
+  "privacyPointSharing": "عند النسخ أو المشاركة يُرسل النص إلى التطبيق الذي تختاره أنت فقط.",
+  "privacyPointBackup": "إذا كان النسخ الاحتياطي لجهازك مفعّلًا، فقد يحتفظ نظام التشغيل بنسخة من إعدادات التطبيق ضمن نسختك الاحتياطية الخاصة.",
+
+  "onboardingTitle1": "حصن المسلم",
+  "onboardingBody1": "أذكار اليوم والليلة وأدعية من الكتاب والسنة، مرتّبة لتصحبك في كل أحوالك.",
+  "onboardingTitle2": "قراءة مريحة وعدّاد دقيق",
+  "onboardingBody2": "خط عربي واضح، وعدّاد للتكرار، ويُحفظ تقدّمك تلقائيًا.",
+  "onboardingTitle3": "لك وحدك، دون إنترنت",
+  "onboardingBody3": "لا حساب ولا إعلانات ولا تتبّع. كل بياناتك تبقى على جهازك.",
+
+  "errorTitle": "حدث خطأ غير متوقع",
+  "errorContent": "تعذّر تحميل المحتوى. أعد تشغيل التطبيق، وإن استمرت المشكلة فأعد تثبيته.",
+  "loading": "جارٍ التحميل…",
+  "notFoundTitle": "الصفحة غير موجودة",
+  "goHome": "العودة إلى الرئيسية",
+  "counterSemantics": "العدد {count} من {total}",
+  "@counterSemantics": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "completedSemantics": "مكتمل"
+}

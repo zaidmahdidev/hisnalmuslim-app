@@ -1,0 +1,4 @@
+tags:
+  # Renders store graphics; run explicitly with
+  # `flutter test tool/store_assets --update-goldens`.
+  store-assets:
